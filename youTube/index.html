@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WEBEnjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.">
+    <meta name="keyword" content="HTML CSS JS">
+    <link rel="icon" href="images/YouTube-APK.webp">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>YouTube</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-container">
+                <div class="left-header">
+                    <div class="tap" id="tap">
+                     <div class="line"></div>
+                     <div class="line"></div>
+                     <div class="line"></div>
+                    </div>
+                    <div class="logo">
+                     <div class="image-logo">
+                        <i class="fa-brands fa-youtube"></i>
+                     </div>
+                     <h2 class="youtube">youTube</h2>
+                     <div class="hover">
+                        YouTube Home
+                     </div>
+                    </div>
+                 </div>
+                 <div class="middle-header">
+                    <div class="mid-right">
+                        <div class="search">
+                            <div class="search-type">
+                                <div class="absolute">
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                </div>
+                                <div class="input">
+                                    <input type="text" id="textInput" placeholder="Search" name="text" id="search">
+                                </div>
+                            </div>
+                            <div class="close-search">
+                                <i class="fa-solid fa-xmark" id="close"></i>
+                            </div>
+                        </div>
+                        <div class="search-icon">
+                            <i class="fa-solid fa-magnifying-glass" ></i>
+                        </div>
+                    </div>
+                    <div class="mid-left">
+                        <i class="fa-solid fa-magnifying-glass" id="icon"></i>
+                        <i class="fa-solid fa-microphone-lines"></i>
+                    </div>
+                 </div>
+                 <div class="right">
+                     <div class="create"><i class="fa-regular fa-square-plus"></i></div>
+                     <div class="noti"><i class="fa-regular fa-bell"></i></div>
+                     <div class="accont" id="acc">
+                         <img src="images/accont.jpg" alt="accont pic">
+                     </div>
+                     <i class="fa-solid fa-magnifying-glass" id="icon"></i>
+                     <div class="list hidden" id="list">
+                        <div class="box one">
+                            <div class="define">
+                                <div class="img">
+                                    <img src="images/accont.jpg" alt="my pic">
+                                </div>
+                                <div class="name">
+                                    <h2>nour muhammed</h2>
+                                    <h2>@nourmohammed899</h2>
+                                </div>
+                            </div>
+                            <div class="link">
+                                <a href="#">View your channel</a>
+                            </div>
+                        </div>
+                        <div class="fixed">
+                            <div class="box two">
+                                <div class="flex">
+                                    <i class="fa-brands fa-google"></i>
+                                    <h3>google account</h3>
+                                </div>
+                                <div class="flex-2">
+                                    <div class="flex">
+                                        <i class="fa-solid fa-repeat"></i>
+                                        <h3>switch account</h3>
+                                    </div>
+                                    <i class="fa-solid fa-angle-right"></i>
+                                </div>
+                                <div class="flex">
+                                    <i class="fa-solid fa-arrow-right-from-bracket"></i>
+                                    <h3>sign out</h3>
+                                </div>
+                            </div>
+                            <div class="box three">
+                                <div class="flex">
+                                    <i class="fa-solid fa-headset"></i>
+                                    <h3>youTube studio</h3>
+                                </div>
+                                <div class="flex">
+                                    <i class="fa-solid fa-dollar-sign"></i>
+                                    <h3>purchases and memberships</h3>
+                                </div>
+                            </div>
+                            <div class="box four">
+                                <div class="flex">
+                                    <i class="fa-solid fa-user-shield"></i>
+                                    <h3>your data in youTube</h3>
+                                </div>
+                            <div class="flex-2">
+                                <div class="flex">
+                                    <i class="fa-regular fa-moon"></i>
+                                    <h3>appearence: device theme</h3>
+                                </div>
+                                <i class="fa-solid fa-angle-right"></i>
+                            </div>
+                            <div class="flex-2">
+                                <div class="flex">
+                                    <i class="fa-solid fa-language"></i>
+                                    <h3>language: english</h3>
+                                </div>
+                                <i class="fa-solid fa-angle-right"></i>
+                            </div>
+                            <div class="flex-2">
+                                <div class="flex">
+                                    <i class="fa-solid fa-shield-heart"></i>
+                                    <h3>restricted mode: off</h3>
+                                </div>
+                                <i class="fa-solid fa-angle-right"></i>
+                            </div>
+                            <div class="flex-2">
+                                <div class="flex">
+                                    <i class="fa-solid fa-globe"></i>
+                                    <h3>location: egypt</h3>
+                                </div>
+                                <i class="fa-solid fa-angle-right"></i>
+                            </div>
+                            <div class="flex">
+                                <i class="fa-regular fa-keyboard"></i>
+                                <h3>keyboard shortcuts</h3>
+                            </div>
+                        </div>
+                        <div class="box five">
+                            <div class="flex">
+                                <i class="fa-solid fa-gear"></i>
+                                <h3>Setting</h3>
+                            </div>
+                        </div>
+                        <div class="box six">
+                            <div class="flex">
+                                <i class="fa-regular fa-circle-question"></i>
+                                <h3>help</h3>
+                            </div>
+                            <div class="flex">
+                                <i class="fa-regular fa-message"></i>
+                                <h3>send feedback</h3>
+                            </div>
+                        </div>
+                        </div>
+                     </div>
+                 </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!-- <div class="container"> -->
+            <div class="side">
+                <div class="side-1" id="side_1">
+                    <div class="side-container">
+                        <div class="sbox">
+                            <i class="fa-solid fa-house"></i>
+                            <h4>home</h4>
+                        </div>
+                        <div class="sbox">
+                            <i class="fa-brands fa-cotton-bureau"></i>
+                            <h4>shorts</h4>
+                        </div>
+                        <div class="sbox">
+                            <i class="fa-brands fa-amazon-pay"></i>
+                            <h4>subscriptions</h4>
+                        </div>
+                        <div class="sbox">
+                            <i class="fa-brands fa-gratipay"></i>
+                            <h4>you</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="side-2" id="side_2">
+                    <div class="group">
+                        <div class="min active">
+                            <i class="fa-solid fa-house"></i>
+                            <h4>home</h4>
+                        </div>
+                        <div class="min">
+                            <i class="fa-brands fa-cotton-bureau"></i>
+                            <h4>shorts</h4>
+                        </div>
+                        <div class="min">
+                            <i class="fa-brands fa-amazon-pay"></i>
+                            <h4>subscriptions</h4>
+                        </div>
+                    </div>
+                    <div class="group">
+                        <div class="title">
+                            <h3>you</h3>
+                            <i class="fa-solid fa-angle-right"></i>
+                        </div>
+                        <div class="min">
+                            <i class="fa-brands fa-gratipay"></i>
+                            <h4>your channel</h4>
+                        </div>
+                        <div class="min">
+                            <i class="fa-solid fa-clock-rotate-left"></i>
+                            <h4>history</h4>
+                        </div>
+                        <div class="min">
+                            <i class="fa-brands fa-staylinked"></i>
+                            <h4>playlists</h4>
+                        </div>
+                        <div class="min">
+                            <i class="fa-solid fa-play"></i>
+                            <h4>your video</h4>
+                        </div>
+                        <div class="min">
+                            <i class="fa-regular fa-clock"></i>
+                            <h4>watch later</h4>
+                        </div>
+                        <div class="min">
+                            <i class="fa-regular fa-thumbs-up"></i>
+                            <h4>liked videos</h4>
+                        </div>
+                    </div>
+                    <div class="group sub">
+                        <div class="title">
+                            <h3 class="cripe">Subscriptions</h3>
+                        </div>
+                        <div class="min">
+                            <div class="image">
+                                <img src="images/sub/m7ame7o.jpg" alt="m7ame7o">
+                            </div>
+                            <div class="nam">
+                                <h4>محاميحو-M7AME7O</h4>
+                                <i class="fa-solid fa-circle"></i>
+                            </div>
+                        </div>
+                        <div class="min">
+                            <div class="image">
+                                <img src="images/sub/art.jpg" alt="Art academy">
+                            </div>
+                            <div class="nam">
+                                <h4>drawing art academy</h4>
+                                <i class="fa-solid fa-tower-broadcast"></i>
+                            </div>
+                        </div>
+                        <div class="min">
+                            <div class="image">
+                                <img src="images/sub/law.jpg" alt="Crime law">
+                            </div>
+                            <div class="nam">
+                                <h4>Law&Crime network</h4>
+                                <i class="fa-solid fa-tower-broadcast"></i>
+                            </div>
+                        </div>
+                        <div class="min">
+                            <div class="image">
+                                <img src="images/sub/ex.jpg" alt="chole">
+                            </div>
+                            <div class="nam">
+                                <h4>chloe ting</h4>
+                                <i class="fa-solid fa-circle"></i>
+                            </div>
+                        </div>
+                        <div class="min">
+                            <div class="image">
+                                <img src="images/sub/dance.jpg" alt="dance">
+                            </div>
+                            <h4>dance from home</h4>
+                        </div>
+                        <div class="min">
+                            <div class="image">
+                                <img src="images/sub/za.jpg" alt="zameican">
+                            </div>
+                            <div class="nam">
+                                <h4>zAmericanEnglish</h4>
+                                <i class="fa-solid fa-circle"></i>
+                            </div>
+                        </div>
+                       
+                        <div class="min">
+                            <div class="image">
+                                <img src="images/sub/easy.jpg" alt="easy to scratch">
+                            </div>
+                            <h4>easy to sketch</h4>
+                        </div>
+                        <div class="min">
+                            <i class="fa-solid fa-angle-down"></i>
+                            <h4 class="more">show more</h4>
+                        </div>
+                    </div>
+                    <div class="group">
+                        <div class="title">
+                            <h3>explore</h3>
+                        </div>
+                        <div class="min">
+                            <i class="fa-solid fa-fire"></i>
+                            <h4>trending</h4>
+                        </div>
+                        <div class="min">
+                            <i class="fa-solid fa-music"></i>
+                            <h4>music</h4>
+                        </div>
+                        <div class="min">
+                            <i class="fa-solid fa-tower-broadcast live"></i>
+                            <h4>live</h4>
+                        </div>
+                        <div class="min">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <h4>gaming</h4>
+                        </div>
+                        <div class="min">
+                            <i class="fa-solid fa-trophy"></i>
+                            <h4>sports</h4>
+                        </div>
+                    </div>
+                    <div class="finish">
+                        <h5>About Press Copyright Contactus Creators Advertise Developers</h5>
+                        <h5 class="second">Terms Privacy Policy & Safety How YouTube works <br>  Test new features</h5>
+                        <p> &copy; 2024 Google LLC</p>
+                    </div>
+                </div>
+            </div>
+
+            <section>
+                <nav>
+                    <a href="#all" class="active-1">all</a>
+                    <a href="#music">music</a>
+                    <a href="#translations">translations</a>
+                    <a href="#mixes">mixes</a>
+                    <a href="#indie">indie pop music</a>
+                    <a href="#korean">korean dramas</a>
+                    <a href="#arabic">arabic music</a>
+                    <a href="#k-pop">k-pop</a>
+                    <a href="#cs50">cs50</a>
+                    <a href="#theme">theme music</a>
+                    <a href="#live">live</a>
+                    <a href="#rock">indie rock</a>
+                    <div class="samee right">
+                    </div>
+                    <div class="samee left">
+                        
+                    </div>
+                </nav>
+                <div class="video-container">
+                    <div class="contin ad">
+                        <div class="ved">
+                            <video src="ved/videoplayback.mp4" controls poster="images/video/ad.webp">ad video</video>
+                        </div>
+                        <div class="info">
+                            <div class="img">
+                                <img src="images/video/channels4_profile.jpg" alt="profile image">
+                            </div>
+                            <div class="gro">
+                                <h2>Write the Perfect Message in Just a Few Taps With Grammarly</h2>
+                                <h3>Sponsored <span>.</span> <span class="span">Grammarly</span></h3>
+                            </div>
+                        </div>
+                        <div class="link">
+                            Download <i class="fa-solid fa-up-right-from-square"></i>
+                        </div>
+                    </div>
+                    <div class="contin ad">
+                        <div class="ved">
+                            <video src="ved/اغنية القضاء مترجمة - Dinle Beni.mp4" controls poster="images/video/v5d.webp">ad video</video>
+                        </div>
+                        <div class="info">
+                            <div class="img">
+                                <img src="images/video/channels4_profile (1).jpg" alt="profile image">
+                            </div>
+                            <div class="gro">
+                                <h2>أغنية القضاء مترجمة - Dilne Beni</h2>
+                                <div class="span">Nour</div>
+                                <h3><span class="span">4M views . 2years ago</span></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contin ad">
+                        <div class="ved">
+                            <video src="ved/اغنية القضاء مترجمة - Dinle Beni.mp4" controls poster="images/video/po4.jpg">ad video</video>
+                        </div>
+                        <div class="info">
+                            <div class="img">
+                                <img src="images/video/channels4_profile (1).jpg" alt="profile image">
+                            </div>
+                            <div class="gro">
+                                <h2>Reda Zgheib - Albi Dab</h2>
+                                <div class="span">Nour</div>
+                                <h3><span class="span">4M views . 2years ago</span></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contin ad">
+                        <div class="ved">
+                            <video src="ved/اغنية القضاء مترجمة - Dinle Beni.mp4" controls poster="images/video/po4.jpg">ad video</video>
+                        </div>
+                        <div class="info">
+                            <div class="img">
+                                <img src="images/video/channels4_profile (1).jpg" alt="profile image">
+                            </div>
+                            <div class="gro">
+                                <h2>Reda Zgheib - Albi Dab</h2>
+                                <div class="span">Nour</div>
+                                <h3><span class="span">4M views . 2years ago</span></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contin ad">
+                        <div class="ved">
+                            <video src="ved/اغنية القضاء مترجمة - Dinle Beni.mp4" controls poster="images/video/po4.jpg">ad video</video>
+                        </div>
+                        <div class="info">
+                            <div class="img">
+                                <img src="images/video/channels4_profile (1).jpg" alt="profile image">
+                            </div>
+                            <div class="gro">
+                                <h2>Reda Zgheib - Albi Dab</h2>
+                                <div class="span">Nour</div>
+                                <h3><span class="span">4M views . 2years ago</span></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contin ad">
+                        <div class="ved">
+                            <video src="ved/اغنية القضاء مترجمة - Dinle Beni.mp4" controls poster="images/video/po4.jpg">ad video</video>
+                        </div>
+                        <div class="info">
+                            <div class="img">
+                                <img src="images/video/channels4_profile (1).jpg" alt="profile image">
+                            </div>
+                            <div class="gro">
+                                <h2>Reda Zgheib - Albi Dab</h2>
+                                <div class="span">Nour</div>
+                                <h3><span class="span">4M views . 2years ago</span></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contin ad">
+                        <div class="ved">
+                            <video src="ved/اغنية القضاء مترجمة - Dinle Beni.mp4" controls poster="images/video/po4.jpg">ad video</video>
+                        </div>
+                        <div class="info">
+                            <div class="img">
+                                <img src="images/video/channels4_profile (1).jpg" alt="profile image">
+                            </div>
+                            <div class="gro">
+                                <h2>Reda Zgheib - Albi Dab</h2>
+                                <div class="span">Nour</div>
+                                <h3><span class="span">4M views . 2years ago</span></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        <!-- </div> -->
+    </main>
+    <script src="js/main.js"></script>
+</body>
+</html>
